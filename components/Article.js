@@ -89,6 +89,24 @@ const data = [
   }
 ];
 
+data.push(
+  {
+    title: 'EZ PZ',
+    date: 'The future',
+    firstParagraph: `Alohamora wand elf parchment, Wingardium Leviosa hippogriff, house dementors betrayal. Holly, Snape centaur portkey ghost
+        Hermione spell bezoar Scabbers. Peruvian-Night-Powder werewolf, Dobby pear-tickle half-moon-glasses, Knight-Bus. Padfoot
+        snargaluff seeker: Hagrid broomstick mischief managed. Snitch Fluffy rock-cake, 9 ¾ dress robes I must not tell lies. Mudbloods
+        yew pumpkin juice phials Ravenclaw’s Diadem 10 galleons Thieves Downfall. Ministry-of-Magic mimubulus mimbletonia Pigwidgeon
+        knut phoenix feather other minister Azkaban. Hedwig Daily Prophet treacle tart full-moon Ollivanders You-Know-Who cursed.
+        Fawkes maze raw-steak Voldemort Goblin Wars snitch Forbidden forest grindylows wool socks`,
+
+    secondParagraph: `ho ho ho merry christmas`,
+
+    thirdParagraph: `more more more more more more more more more more more more more more more more more more more more more more more more more more more more more more more more more `
+  }
+);
+
+
 // Where I want to insert articles
 const articlesDiv = document.querySelector('.articles');
 
@@ -116,7 +134,7 @@ date.textContent = object.date;
 par1.textContent = object.firstParagraph;
 par2.textContent = object.secondParagraph;
 par1.textContent = object.thirdParagraph;
-
+spanbtn.textContent = '+';
 /* <div class="article">
     <h2>{title of the article}</h2>
     <p class="date">{date of the article}</p>
@@ -153,3 +171,5 @@ return card
 
   // Step 5: Try adding new article object to the data array. Make sure it is in the same format as the others.
   // Refresh the page to see the new article.
+
+  // see data.push on line 92
