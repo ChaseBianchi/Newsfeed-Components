@@ -158,7 +158,7 @@ card.appendChild(spanbtn);
 spanbtn.addEventListener('click',()=>{
   card.classList.toggle('article-open')
 })
-
+console.log(card);
   // Step 3: Don't forget to return something from your function!
 return card
 }
